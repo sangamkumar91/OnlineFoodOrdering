@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	line-height: inherit;
+}
+body {
+background: #fff;
+line-height: 1;
+font-size: 12px;
+font-family: Arial, Tahoma, sans-serif;
+margin: 0;
+height: 101%;
+}
+
+#wrap {
+width: 600px;
+background: #ddeef8;
+margin: 0 auto;
+margin-top: 55px;
+padding: 14px 19px;
+}
+
+p { font-size: 12px; color: #333; line-height: 18px; }
+
+#backgroundPopup{
+display: none;
+position: fixed;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+background: #000;
+border: 1px solid #cecece;
+z-index: 1;
+}
+
+#myPopup {
+display: none;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+
+height: 400px;
+width: 400px;
+background: wheat;
+border: 2px solid #cecece;
+z-index: 2;
+padding: 14px;
+font-size: 14px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#myPopup h1{
+text-align: center;
+color: black;
+font-size: 22px;
+line-height: 28px;
+font-weight: bold;
+border-bottom: 1px dotted #D3D3D3;
+padding-bottom: 2px;
+margin-bottom: 20px;
+}
+
+#popupClose{
+font-size: 26px;
+ padding: 5px;
+ background-color: #cccccc;
+
+color: black;
+font-weight: bold;
+margin-left: auto;
+margin-right: auto;
+}
+
+#displaypopup{
+    background-color:#CCC;
+		border: solid grey 10px;
+		border-radius:6px;
+		width: 170px;
+		height: 26px ;
+		padding: 7px;
+		font-family: Dosis;
+font-size:20px;
+
+}

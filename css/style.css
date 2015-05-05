@@ -1,0 +1,151 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+body { font: 14px Georgia, serif; }
+
+nav {
+display: block;
+width: 100%;
+margin: 100px auto;
+text-align: center;
+}
+
+nav ul {
+list-style: none;
+}
+
+nav li {
+display: inline-block;
+}
+
+nav a {
+display: inline-block;
+background: #333;
+color: white;
+padding: 5px 15px;
+border: 1px solid white;
+text-decoration: none;
+}
+
+nav a:hover {
+border: 1px solid red;
+background: red;
+}
+
+nav a:active {
+background: blue;
+}
+
+nav select {
+display: none;
+}
+
+@media (max-width: 190px) {
+nav ul     { display: none; }
+nav select { display: inline-block; }
+}
+
+#profileinfo{
+border:1px solid;
+}
+
+#contactinfo{
+border:1px solid;
+}
+
+#ordertable{
+border:1px solid;
+}
+
+#addFavouriteOrder{
+border:1px solid;
+}
+
+#removeFavouriteOrder{
+border:1px solid;
+}
+
+#addAddress{
+border:1px solid;
+}
+
+.check{
+width:2%;
+}
+
+.date{
+width:20%;
+text-align:center;
+}
+
+.restaurant{
+width:15%;
+text-align:center;
+}
+
+.items{
+width:45%;
+text-align:center;
+}
+
+.price{
+width:3%;
+text-align:center;
+}
+
+.orderFavourite{
+width:5%;
+text-align:center;
+}
+/*
+.customer{
+float:left;
+}*/
+
+.customer_profile{
+list-style-type:none;
+}
+
+.customer_details li{
+list-style-type:none;
+display:inline-block !important;
+
+}
+
+
+.customer_contactInfo{
+list-style-type:none;
+}
+
+#favOrders{
+width:100%;
+border:1px solid;
+/*
+float: left;
+height:300px;
+*/}
+
+#favRestaurants{
+display:none;
+width:30%;
+height:300px;
+float:right;
+border:1px solid;
+}
+
+a#fav {
+ background: url('star3.png') no-repeat;
+ display: block;
+ width: 24px;
+ height: 24px;
+}
+
+a#fav.active{
+ background: url('star4.png') no-repeat;
+ display: block;
+ width: 24px;
+ height: 24px;
+}

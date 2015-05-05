@@ -1,0 +1,415 @@
+/* 
+    Document   : style
+    Created on : 15 Jun, 2013, 4:15:51 PM
+    Author     : Acer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+
+
+/* Global properties ======================================================== */
+
+root { 
+    display: block;
+}
+body
+{
+
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url(fonts/DosisExtraLight.ttf);
+    font-weight:normal;
+}
+@font-face {
+    font-family: Mate;
+    src: url(fonts/MateRegular.ttf);
+    font-weight:normal;
+}
+@font-face {
+    font-family: Cuprum;
+    src: url(fonts/CuprumRegular.ttf);
+    font-weight:normal;
+}
+
+/* ============================= main layout ====================== */
+
+#bg{
+		font-size:15px;
+		background-color:#CCC;
+				
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DFDFDF), to(#E6E6E6));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #DFDFDF, #E6E6E6);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #DFDFDF, #E6E6E6);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #DFDFDF, #E6E6E6);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #DFDFDF, #E6E6E6);
+		width: 1024px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom: 40px;
+		}
+
+
+.title1{
+font-family: Mate;
+font-size:50px;
+line-height:1.2em;
+padding:20px 0 0 0;
+color:#662A22;
+font-weight:normal;
+margin-left:30%;
+margin-top: 30px;
+margin-right:auto;
+
+//border: solid red 2px;
+}
+/* ============================= header ====================== */
+header{
+    background-image:url(images/header.png);
+    height: 205px;
+    background-repeat:repeat-x;
+}
+	
+#logo{
+	
+	float: left;
+	margin-left:20px;
+	margin-top:15px;}
+	
+	
+	
+	
+	li{
+
+		display: inline;
+		list-style:none;
+		
+		
+		}
+		
+		
+		#log_in{
+			float:right;
+			margin: 50px 15px;
+			
+			height:200px;			
+		}
+			
+
+/* ============================= content ====================== */
+
+#gradcontainer {
+/*border:solid blue 3px;*/
+ background-color:#CCC;
+		width: 1024px;
+		min-height:450px;
+		
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DFDFDF), to(#E6E6E6));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #DFDFDF, #E6E6E6);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #DFDFDF, #E6E6E6);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #DFDFDF, #E6E6E6);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #DFDFDF, #E6E6E6);
+}
+
+#searchunit{
+    height: 20px;
+
+}
+#thumbnail{
+    height: auto;
+    width: 200px;	}
+table{
+	height:200px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+#search_text{
+		background-color:#CCC;
+		border: solid grey 10px;
+		border-radius:6px;
+		width: 170px;
+		height: 26px ;
+		padding: 7px;
+		font-family: Dosis;
+font-size:20px;
+
+		}
+#search_text1{
+		background-color:#CCC;
+		border: solid grey 10px;
+		border-radius:6px;
+		width: 170px;
+		height: 60px ;
+		padding: 7px;
+		font-family: Dosis;
+font-size:20px;
+
+		}
+#search_button{
+    background-image:url(images/search.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:80px;
+    height: 56px;
+}
+/*
+h1{
+    margin-left:26%;
+    margin-right:auto;
+    width: 600px;
+    margin-top: 40px;
+}*/
+#searchform{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	
+	background:#000;
+	border-radius: 4px;
+	opacity: 0.8;
+	color: #666;
+	font-weight:bold;
+		font-family: Dosis;
+font-size:15px;
+line-height:1.2em;
+	}
+	
+.instru {
+font-family: Dosis;
+font-size:15px;
+line-height:1.2em;
+font-weight:bold;
+}
+
+#searchresult{
+		margin-top: -145px;
+		margin-left:auto;
+		margin-right:auto;
+		padding: 4px;
+		border-radius: 6px;
+		max-width:1024px;
+		
+		background-color:#CCC;
+						
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DFDFDF), to(#E6E6E6));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #DFDFDF, #E6E6E6);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #DFDFDF, #E6E6E6);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #DFDFDF, #E6E6E6);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #DFDFDF, #E6E6E6);
+		}
+		
+.dropdown{
+	    background-color:#CCC;
+		border: solid grey 10px;
+		border-radius:6px;
+		width: 180px;
+		height: 60px;
+		padding: 7px;
+		font-family: Dosis;
+font-size:19px;
+font-weight:bold;
+
+}
+h3 {
+text-align:center;
+}
+h4 {
+text-align:center;
+}
+
+.inforest {
+margin-left:150px;
+font-family: cuprum;
+font-size:20px;
+font-weight:normal;
+		padding: 6px;
+}
+#infopic {
+//border:solid red 3px;
+margin-top: -220px;
+float:right;
+margin-right: 150px;
+}
+.infopic {
+float:right;
+}
+
+td{
+	font-family: cuprum;
+	font-size:20px;
+	font-weight:normal;
+		padding: 6px;}
+		
+#bigname {
+font-family: cuprum;
+font-size:40px;
+font-weight:normal;
+	}
+
+#searchresulttable{
+
+    margin : auto;
+
+}
+.sign_up{
+	background-image:url(signup.jpg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	width:121px;
+	height: 45px;
+	}
+#centerlogin {
+margin-top:50px;
+border: solid grey 6px;
+margin-left:35%;
+		margin-right:35%;
+		
+}
+
+
+/*
+#container{margin:0 auto;font-size:22px;font-family:cambria}
+#next{display:block!important;border-radius:5px;
+      -moz-border-radius:5px;-webkit-border-radius:5px;border:1px solid #ddd;
+      background:#efefef;text-align:center;font-weight:bold;box-shadow:2px 2px 2px rgba(50,50,50,0.4);
+      color:#444;text-decoration:none;padding:5px}
+#next:hover{background:#dfdfdf;color:#222}
+*/
+
+
+
+/*
+#login{
+    float:right;
+    margin: 8% 5px;
+
+    height:200px;			
+}*/
+
+.loading-bar {
+	padding: 10px 20px;
+	display: block;
+	text-align: center;
+	box-shadow: inset 0px -45px 30px -40px rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	margin: 20px 0;
+	font-size: 2em;
+	font-family: "museo-sans", sans-serif;
+	border: 1px solid #ddd;
+	margin-right: 1px;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+}
+
+.loading-bar:hover {
+	box-shadow: inset 0px 45px 30px -40px rgba(0, 0, 0, 0.05);
+}
+
+#content {
+	
+	margin: 0px auto;
+}
+
+#content h1 {
+	font-family: "chaparral-pro", sans-serif;
+	color: #444;
+	font-size: 4.2em;
+}
+
+#content h1 a {
+	color: #444;
+	text-decoration: none;
+}
+
+#content h1 a:hover {
+	color: #666;
+}
+
+#content p {
+	font-size: 2em;
+	line-height: 1.7em;
+	font-family: "museo-sans", sans-serif;
+	text-align: justify;	
+}
+
+#content hr {
+	border-bottom: 1px solid #eee;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+
+#travel {
+	padding: 10px;
+	background: rgba(0,0,0,0.6);
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	font-variant: normal;
+	text-decoration: none;
+}
+
+#travel a {
+	font-family: 'Georgia', serif;
+	text-decoration: none;
+	border-bottom: 1px solid #f9f9f9;
+	color: #f9f9f9;
+	font-size: 1.5em;
+}
+
+#prodprice {
+background-color:#CCC;
+}
+
+/* ============================= footer ====================== */
+
+footer{
+    background-image:url(images/footer.png);
+    height: 100px;
+    background-repeat:repeat-x;
+    margin-top: 100px;
+
+}
+#footer_text{
+margin-left:40%;
+margin-top:20px;
+//border: solid red 3px;	
+}
